@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "957272882884",
+    "project_id": "holachat-fedd1",
+    "storage_bucket": "holachat-fedd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957272882884:android:7778d65d7f530a0f581391",
+        "android_client_info": {
+          "package_name": "com.asv.holachat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957272882884-ml7rkm4neu18bbanq703ubpo7a9nh3ck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVgJL-u8T2grvoNTbo-efBvKGYOpzr5dU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957272882884-ml7rkm4neu18bbanq703ubpo7a9nh3ck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

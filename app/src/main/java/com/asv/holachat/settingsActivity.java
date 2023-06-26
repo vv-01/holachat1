@@ -62,6 +62,7 @@ public class settingsActivity extends AppCompatActivity {
                 //textView2.setMovementMethod(LinkMovementMethod.getInstance());
             }
         });
+        binding.txtView3.setMovementMethod(LinkMovementMethod.getInstance());
 
 
 

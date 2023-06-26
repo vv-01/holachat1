@@ -151,10 +151,12 @@
             android:drawableLeft="@drawable/about"
             android:drawablePadding="25dp"
             android:padding="10dp"
-            android:text="About Us"
+            android:text="@string/hyperlink"
             android:textColor="@color/black"
             android:textSize="18sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColorLink="@color/black"
+            />
 
         <TextView
             android:layout_width="match_parent"

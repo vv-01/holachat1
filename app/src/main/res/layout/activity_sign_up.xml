@@ -8,7 +8,7 @@
     tools:context=".SignUpActivity"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/w1">
+    android:background="@drawable/privacypolicy">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,8 +24,16 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/imageView"
-            android:src="@drawable/ic_whatsapp"
+            android:src="@drawable/baseline_mark_chat_unread_24"
             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to HolaChat"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
 
         <EditText
             android:id="@+id/txtUsername"
@@ -38,8 +46,8 @@
             android:inputType="textPersonName"
             android:minHeight="48dp"
             android:padding="9dp"
-            android:textColor="@color/lightGrey"
-            android:textColorHint="@color/chatBackground" />
+            android:textColor="@color/white"
+            android:textColorHint="@color/lightGrey" />
 
         <EditText
             android:id="@+id/txtEmail"
@@ -52,8 +60,8 @@
             android:inputType="textPersonName"
             android:minHeight="48dp"
             android:padding="9dp"
-            android:textColor="@color/lightGrey"
-            android:textColorHint="@color/chatBackground" />
+            android:textColor="@color/white"
+            android:textColorHint="@color/lightGrey" />
 
         <EditText
             android:id="@+id/txtPassword"
@@ -66,8 +74,8 @@
             android:inputType="textPersonName"
             android:minHeight="48dp"
             android:padding="9dp"
-            android:textColor="@color/lightGrey"
-            android:textColorHint="@color/chatBackground" />
+            android:textColor="@color/white"
+            android:textColorHint="@color/lightGrey" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -85,21 +93,21 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnSignUp"
             android:layout_marginTop="10dp"
+            android:backgroundTint="@color/design_default_color_secondary_variant"
+            android:padding="15dp"
             android:text="SignUp"
             android:textAllCaps="false"
-            android:backgroundTint="@color/design_default_color_secondary_variant"
             app:cornerRadius="8dp"
-            android:layout_gravity="center"
             />
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginTop="25dp"
             android:orientation="horizontal">
 
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/btnGoogle"
                 android:layout_marginEnd="4dp"
@@ -113,35 +121,35 @@
                 android:backgroundTint="@color/white"
                 app:cornerRadius="8dp"
                 />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/btnFacebook"
-                android:layout_marginStart="4dp"
-                android:layout_marginRight="4dp"
-                android:layout_weight="1"
-                android:drawableLeft="@drawable/ic_facebook"
-                android:padding="15dp"
-                android:text="Facebook"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:backgroundTint="@color/fbColor"
-                app:cornerRadius="8dp"
-                />
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:id="@+id/btnFacebook"-->
+<!--                android:layout_marginStart="4dp"-->
+<!--                android:layout_marginRight="4dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:drawableLeft="@drawable/ic_facebook"-->
+<!--                android:padding="15dp"-->
+<!--                android:text="Facebook"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:backgroundTint="@color/fbColor"-->
+<!--                app:cornerRadius="8dp"-->
+<!--                />-->
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtSignUpPhone"
-            android:layout_gravity="center"
-            android:text="SignUp with Phone Number"
-            android:textColor="@color/white"
-            android:padding="5dp"
-            android:textStyle="bold"
-            android:textSize="19sp"
-            />
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/txtSignUpPhone"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:text="SignUp with Phone Number"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:padding="5dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="19sp"-->
+<!--            />-->
 
     </LinearLayout>
 

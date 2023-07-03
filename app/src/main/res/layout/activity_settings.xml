@@ -149,7 +149,7 @@
             android:layout_marginStart="50dp"
             android:layout_marginLeft="50dp"
             android:drawableLeft="@drawable/about"
-            android:drawablePadding="25dp"
+            android:drawablePadding="-9dp"
             android:padding="10dp"
             android:text="@string/hyperlink"
             android:textColor="@color/black"
